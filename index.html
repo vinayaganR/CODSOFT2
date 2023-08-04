@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Landing Page</title>
+<style>
+header{
+width:100%;
+height:100%;
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url("https://img.freepik.com/premium-photo/craftsman-is-welding-with-workpiece-steel_39733-222.jpg");
+background-size: cover;
+font-family: sans-serif;
+}
+nav{
+height: 100px;
+width:100%;
+color:white;
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+.logo{
+font-size: 30px;
+color:white;
+transition: 2s;
+}
+.logo:hover{
+color:darkblue;
+background-color:white;
+padding:10px 20px;
+}
+.menu a{
+text-decoration: none;
+color:white;
+padding:10px 20px;
+font-size: 20px;
+position: relative;
+}
+.menu a:before{
+content:'';
+position: absolute;
+top:0;
+left:0;
+width:0%;
+height:100%;
+border-bottom:2px solid rgb(255, 255, 255);
+transition: 0.6s linear;
+}
+.menu a:hover:before{
+ width:90%;
+}
+.register a{
+text-decoration: none;
+color:white;
+font-size: 20px;
+padding:10px 20px;
+background-color:darkblue;
+transition: 0.5s;
+}
+.register a:hover{
+padding:15px 25px;
+background-color: white;
+color:darkblue
+        
+}
+.text{
+color:white;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+ .text span{
+letter-spacing: 5px;
+font-size:20px ;
+.text h1{
+font-size: 50px;
+}
+.text a{
+text-decoration: none;
+ background-color:darkblue ;
+color:white;
+font-size:20px ;
+padding:10px 20px;
+transition: 0.5s;
+}
+.text a:hover{
+border:  2px solid rgb(255, 255, 255);
+padding:15px 25px;
+background-color: white;
+            
+color:darkblue
+</style>
+</head>
+    
+    
+<body>
+<header>
+<nav>
+<div class="logo">welding</div>
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">'works</a>
+<a href="#">About Us</a>
+<a href="#">Contact</a>
+</div>
+<div class="register">
+<a href="#">for booking</a>
+</div></nav>
+<section class="text">
+<h1> welding services and work</h1>
+<span>modular home construction designs and all type of welding works</span><br><br><br>
+<a href="#">for more information</a>
+</section>
+</header>
+</body>
+</html>
